@@ -46,8 +46,8 @@ class QuizzPage extends StatelessWidget {
         quizzModel._quizz[questionIndex].keys.first,
       ),
       SizedBox(
-        width: 200,
-        height: 100,
+        width: 300,
+        height: 150,
         child: Column(
           children: [
             ElevatedButton(

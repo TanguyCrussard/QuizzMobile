@@ -37,5 +37,4 @@ Future<void> fetchQuizz(QuizzModel quizzModel) async {
       throw Exception('Erreur lors de la récupération des questions');
     }
   }
-  print(quizzModel.quizz);
 }
